@@ -1,0 +1,28 @@
+//
+//  HZGAPP_Prefix.pch
+//  HZGAPP
+//
+//  Created by 曾令轩 on 16/4/22.
+//  Copyright © 2016年 KFM. All rights reserved.
+//  好找工项目-Prefix
+
+#ifndef HZGAPP_Prefix_pch
+#define HZGAPP_Prefix_pch
+
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#endif
+
+
+// 自定义宏
+#import "HZGAPP_Define.h"
+
+// 数据接口
+#import "HZGAPP_Interface.h"
+
+
+#endif /* HZGAPP_Prefix_pch */
